@@ -1,64 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charles Hemedi - WDD 231 - Web Frontend Development</title>
-    <meta name="description" content="Charles Hemedi - WDD 231 - course assignment portal">
-    <meta name="author" content="Charles Hemedi">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" >
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
-</head>
-<body>
-
-
-<header>
-    <h1 class="view">Larger Views</h1>
-    <div class="profile">
-        <img src="images/wdd231.webp" width="100" height="100" alt="my picture">
-        <p>Charles Hemedi</p>
-     </div>
-<nav class="nav">
-    <a href="#">Home</a>
-    <a href="#">Chamber</a>
-    <a href="#">Site Plan</a>
-    <a href="#">Form</a>
-</nav>
-</header>
-<main>
-<h2>WDD 231: Web Frontend Development</h2>
-<div class="container">
-
-      <section class="lean">
-    <h2 class="sub1">Learning Activities</h2>
-        <ul>
-            <li>Week 01: <a href="#">Layout</a>  | <a href="#">Media Query</a> |<a href="#"> JS Pen</a> </li>
-            <li>Week 02:</li>
-            <li>Week 03:</li>
-            <li>Week 04:</li>
-            <li>Week 05:</li>
-            <li>Week 06:</li>
+    <meta
+      name="description"
+      content="My courses in BYU, my projects(Github) and skills(LinkedIn)"
+    >
+    <meta name="author" content="Charles Hemedi" >
+    <title>Charles Hemedi</title>
+    <link rel="stylesheet" href="styles/styles.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    >
+    <script defer src="scripts/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="profile">
+        <img src="images/wdd231.webp" alt="My picture Hemedi" />
+        <h1>Charles Hemedi</h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/chamber/directory.html">Chamber</a></li>
+          <li><a href="https://github.com/Hemedi12">GitHub Profile</a></li>
+          <li><a href="linkedin.com/in/hemedi-charles-9a6385a2">LinkedIn</a></li>
         </ul>
-    </section>
-    <section class="info">
-        <h2 class="sub2">Information</h2>
-        <p>Bujumbura, Burundi</p>
-        <p>🌞 76°F - Sunshine</p>
-        <p>Page Visits: 15</p>
-    </section>
-</div>
-</main>
+        <button class="hamburger">&#9776;</button>
+        <!-- Hamburger button for mobile -->
+      </nav>
+    </header>
 
-<footer>
-        <p>&copy;<span id="currentYear"></span> 🌴 Charles Hemedi 🌴 Bujumbura, Burundi.</p>
-        <p>Last Modification: <span id="lastModified"></span></p>
+    <main>
+      <section class="course-work">
+        <h2>Course Work</h2>
+        <ul>
+          <li><a href="#"> Web and Computer Programming</a></li>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Software Development</a></li>
+        </ul>
+      </section>
+
+      <section class="location">
+        <h2>Gitega, Burundi</h2>
+        <img src="images/gitega.webp" alt="gitega city" />
+        <p>Gitega City</p>
+      </section>
+
+      <section class="certificates">
+        <h2>Web and Computer Programming Certificate</h2>
+        <h3 id="total-credits">Total credits: 0</h3>
+        <div class="course-filter">
+          <button id="all">All</button>
+          <button id="cse">CSE</button>
+          <button id="wdd">WDD</button>
+        </div>
+        <div class="courses" id="course-container"></div>
+      </section>
+    </main>
+
+    <footer id="main-footer">
+      <p id="country">
+        ©<span id="currentyear"></span> Charles Hemedi, Burundi
+      </p>
+      <p id="lastModified">Last Updated:</p>
     </footer>
-    <script src="scripts/getDates.js" defer ></script>
-
-
-
-</body>
+  </body>
 </html>
