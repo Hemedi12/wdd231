@@ -1,65 +1,86 @@
 [
     {
-        "name": "Tech Innovations Inc.",
-        "address": "123 Innovation Way, Silicon Valley, CA 94043",
-        "phone": "(123) 456-7890",
-        "website": "https://www.techinnovations.com",
-        "image": "tech_innovations_logo.png",
+        "name": "Tech Innovators Inc.",
+        "address": "123 Tech Park, Silicon Valley, CA 94043",
+        "phone_number": "+1-408-555-0123",
+        "website_url": "https://www.techinnovators.com",
+        "image_file_name": "tech_innovators.png",
         "membership_level": 3,
-        "other_info": "Leading provider of tech solutions."
+        "other_info": {
+            "established": 2010,
+            "industry": "Technology"
+        }
     },
     {
-        "name": "Eco-Friendly Solutions",
-        "address": "456 Green St, Portland, OR 97201",
-        "phone": "(234) 567-8901",
-        "website": "https://www.ecofriendlysolutions.com",
-        "image": "eco_friendly_logo.png",
+        "name": "Green Solutions LLC",
+        "address": "456 Eco Drive, Portland, OR 97205",
+        "phone_number": "+1-503-555-0198",
+        "website_url": "https://www.greensolutions.com",
+        "image_file_name": "green_solutions.png",
         "membership_level": 2,
-        "other_info": "Sustainable product development."
+        "other_info": {
+            "established": 2015,
+            "industry": "Sustainability"
+        }
     },
     {
-        "name": "Health Plus Wellness",
-        "address": "789 Health Ave, New York, NY 10001",
-        "phone": "(345) 678-9012",
-        "website": "https://www.healthpluswellness.com",
-        "image": "health_plus_logo.png",
+        "name": "Global Finance Group",
+        "address": "789 Finance Ave, New York, NY 10010",
+        "phone_number": "+1-212-555-0147",
+        "website_url": "https://www.globalfinance.com",
+        "image_file_name": "global_finance.png",
         "membership_level": 1,
-        "other_info": "Wellness and fitness programs."
+        "other_info": {
+            "established": 2005,
+            "industry": "Finance"
+        }
     },
     {
-        "name": "Creative Design Studio",
-        "address": "321 Art Lane, Los Angeles, CA 90001",
-        "phone": "(456) 789-0123",
-        "website": "https://www.creativedesignstudio.com",
-        "image": "creative_design_logo.png",
+        "name": "HealthCare Solutions",
+        "address": "321 Wellness Rd, Chicago, IL 60601",
+        "phone_number": "+1-312-555-0189",
+        "website_url": "https://www.healthcaresolutions.com",
+        "image_file_name": "healthcare_solutions.png",
+        "membership_level": 3,
+        "other_info": {
+            "established": 2018,
+            "industry": "Healthcare"
+        }
+    },
+    {
+        "name": "Creative Media Agency",
+        "address": "654 Media Blvd, Los Angeles, CA 90001",
+        "phone_number": "+1-323-555-0165",
+        "website_url": "https://www.creativemedia.com",
+        "image_file_name": "creative_media.png",
         "membership_level": 2,
-        "other_info": "Graphic and web design services."
+        "other_info": {
+            "established": 2012,
+            "industry": "Media"
+        }
     },
     {
-        "name": "Travel Explore Co.",
-        "address": "654 Adventure Blvd, Miami, FL 33101",
-        "phone": "(567) 890-1234",
-        "website": "https://www.travelexploreco.com",
-        "image": "travel_explore_logo.png",
-        "membership_level": 3,
-        "other_info": "Luxury travel experiences."
-    },
-    {
-        "name": "Gourmet Foods Inc.",
-        "address": "987 Taste St, Chicago, IL 60601",
-        "phone": "(678) 901-2345",
-        "website": "https://www.gourmetfoods.com",
-        "image": "gourmet_foods_logo.png",
+        "name": "Innovative Design Co.",
+        "address": "987 Design St, Austin, TX 73301",
+        "phone_number": "+1-512-555-0132",
+        "website_url": "https://www.innovativedesign.com",
+        "image_file_name": "innovative_design.png",
         "membership_level": 1,
-        "other_info": "Specialty food products."
+        "other_info": {
+            "established": 2016,
+            "industry": "Design"
+        }
     },
     {
-        "name": "Future Tech Labs",
-        "address": "135 Future Rd, Austin, TX 73301",
-        "phone": "(789) 012-3456",
-        "website": "https://www.futuretechlabs.com",
-        "image": "future_tech_logo.png",
-        "membership_level": 3,
-        "other_info": "Innovative tech development."
+        "name": "Travel Experts Inc.",
+        "address": "234 Trip Lane, Miami, FL 33101",
+        "phone_number": "+1-305-555-0148",
+        "website_url": "https://www.travelexperts.com",
+        "image_file_name": "travel_experts.png",
+        "membership_level": 2,
+        "other_info": {
+            "established": 2000,
+            "industry": "Travel"
+        }
     }
 ]
