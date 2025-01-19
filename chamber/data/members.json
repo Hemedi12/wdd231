@@ -1,86 +1,65 @@
 [
     {
-        "name": "Tech Innovators Inc.",
-        "address": "123 Tech Park, Silicon Valley, CA 94043",
-        "phone_number": "+1-408-555-0123",
-        "website_url": "https://www.techinnovators.com",
-        "image_file_name": "tech_innovators.png",
-        "membership_level": 3,
-        "other_info": {
-            "established": 2010,
-            "industry": "Technology"
-        }
+        "name": "Meta Platforms Inc.",
+        "address": "1 Hacker Way, Menlo Park, CA",
+        "phone": "650-543-4800",
+        "website": "https://www.meta.com",
+        "icon": "meta.webp",
+        "membershipLevel": 3,
+        "additionalInfo": "Pioneering social networking and virtual reality"
     },
     {
-        "name": "Green Solutions LLC",
-        "address": "456 Eco Drive, Portland, OR 97205",
-        "phone_number": "+1-503-555-0198",
-        "website_url": "https://www.greensolutions.com",
-        "image_file_name": "green_solutions.png",
-        "membership_level": 2,
-        "other_info": {
-            "established": 2015,
-            "industry": "Sustainability"
-        }
+        "name": "Apple Inc.",
+        "address": "1 Apple Park Way, Cupertino, CA",
+        "phone": "408-996-1010",
+        "website": "https://www.apple.com",
+        "icon": "apple.png",
+        "membershipLevel": 3,
+        "additionalInfo": "Leading innovator in consumer electronics and software"
     },
     {
-        "name": "Global Finance Group",
-        "address": "789 Finance Ave, New York, NY 10010",
-        "phone_number": "+1-212-555-0147",
-        "website_url": "https://www.globalfinance.com",
-        "image_file_name": "global_finance.png",
-        "membership_level": 1,
-        "other_info": {
-            "established": 2005,
-            "industry": "Finance"
-        }
+        "name": "Microsoft Corporation",
+        "address": "One Microsoft Way, Redmond, WA",
+        "phone": "425-882-8080",
+        "website": "https://www.microsoft.com",
+        "icon": "microsoft.png",
+        "membershipLevel": 2,
+        "additionalInfo": "Global leader in software, services, and devices"
     },
     {
-        "name": "HealthCare Solutions",
-        "address": "321 Wellness Rd, Chicago, IL 60601",
-        "phone_number": "+1-312-555-0189",
-        "website_url": "https://www.healthcaresolutions.com",
-        "image_file_name": "healthcare_solutions.png",
-        "membership_level": 3,
-        "other_info": {
-            "established": 2018,
-            "industry": "Healthcare"
-        }
+        "name": "Tesla, Inc.",
+        "address": "3500 Deer Creek Road, Palo Alto, CA",
+        "phone": "650-681-5000",
+        "website": "https://www.tesla.com",
+        "icon": "tesla.png",
+        "membershipLevel": 2,
+        "additionalInfo": "Electric vehicles and renewable energy solutions"
     },
     {
-        "name": "Creative Media Agency",
-        "address": "654 Media Blvd, Los Angeles, CA 90001",
-        "phone_number": "+1-323-555-0165",
-        "website_url": "https://www.creativemedia.com",
-        "image_file_name": "creative_media.png",
-        "membership_level": 2,
-        "other_info": {
-            "established": 2012,
-            "industry": "Media"
-        }
+        "name": "NVIDIA Corporation",
+        "address": "2788 San Tomas Expressway, Santa Clara, CA",
+        "phone": "408-486-2000",
+        "website": "https://www.nvidia.com",
+        "icon": "nvidia.png",
+        "membershipLevel": 3,
+        "additionalInfo": "Pioneering GPU technology and AI computing"
     },
     {
-        "name": "Innovative Design Co.",
-        "address": "987 Design St, Austin, TX 73301",
-        "phone_number": "+1-512-555-0132",
-        "website_url": "https://www.innovativedesign.com",
-        "image_file_name": "innovative_design.png",
-        "membership_level": 1,
-        "other_info": {
-            "established": 2016,
-            "industry": "Design"
-        }
+        "name": "The Walt Disney Company",
+        "address": "500 S Buena Vista Street, Burbank, CA",
+        "phone": "818-560-1000",
+        "website": "https://www.disney.com",
+        "icon": "disney.png",
+        "membershipLevel": 1,
+        "additionalInfo": "Entertainment and media conglomerate"
     },
     {
-        "name": "Travel Experts Inc.",
-        "address": "234 Trip Lane, Miami, FL 33101",
-        "phone_number": "+1-305-555-0148",
-        "website_url": "https://www.travelexperts.com",
-        "image_file_name": "travel_experts.png",
-        "membership_level": 2,
-        "other_info": {
-            "established": 2000,
-            "industry": "Travel"
-        }
+        "name": "Google LLC",
+        "address": "1600 Amphitheatre Parkway, Mountain View, CA",
+        "phone": "650-253-0000",
+        "website": "https://www.google.com",
+        "icon": "google.png",
+        "membershipLevel": 3,
+        "additionalInfo": "Leading provider of search, advertising, and cloud computing"
     }
 ]
