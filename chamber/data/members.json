@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Tech Innovations Inc.",
+        "address": "123 Innovation Way, Silicon Valley, CA 94043",
+        "phone": "(123) 456-7890",
+        "website": "https://www.techinnovations.com",
+        "image": "tech_innovations_logo.png",
+        "membership_level": 3,
+        "other_info": "Leading provider of tech solutions."
+    },
+    {
+        "name": "Eco-Friendly Solutions",
+        "address": "456 Green St, Portland, OR 97201",
+        "phone": "(234) 567-8901",
+        "website": "https://www.ecofriendlysolutions.com",
+        "image": "eco_friendly_logo.png",
+        "membership_level": 2,
+        "other_info": "Sustainable product development."
+    },
+    {
+        "name": "Health Plus Wellness",
+        "address": "789 Health Ave, New York, NY 10001",
+        "phone": "(345) 678-9012",
+        "website": "https://www.healthpluswellness.com",
+        "image": "health_plus_logo.png",
+        "membership_level": 1,
+        "other_info": "Wellness and fitness programs."
+    },
+    {
+        "name": "Creative Design Studio",
+        "address": "321 Art Lane, Los Angeles, CA 90001",
+        "phone": "(456) 789-0123",
+        "website": "https://www.creativedesignstudio.com",
+        "image": "creative_design_logo.png",
+        "membership_level": 2,
+        "other_info": "Graphic and web design services."
+    },
+    {
+        "name": "Travel Explore Co.",
+        "address": "654 Adventure Blvd, Miami, FL 33101",
+        "phone": "(567) 890-1234",
+        "website": "https://www.travelexploreco.com",
+        "image": "travel_explore_logo.png",
+        "membership_level": 3,
+        "other_info": "Luxury travel experiences."
+    },
+    {
+        "name": "Gourmet Foods Inc.",
+        "address": "987 Taste St, Chicago, IL 60601",
+        "phone": "(678) 901-2345",
+        "website": "https://www.gourmetfoods.com",
+        "image": "gourmet_foods_logo.png",
+        "membership_level": 1,
+        "other_info": "Specialty food products."
+    },
+    {
+        "name": "Future Tech Labs",
+        "address": "135 Future Rd, Austin, TX 73301",
+        "phone": "(789) 012-3456",
+        "website": "https://www.futuretechlabs.com",
+        "image": "future_tech_logo.png",
+        "membership_level": 3,
+        "other_info": "Innovative tech development."
+    }
+]
