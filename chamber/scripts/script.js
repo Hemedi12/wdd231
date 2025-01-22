@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   async function fetchMembers() {
     try {
       const response = await fetch(
-        "https://hemedi12.github.io/wdd231/chamber/data/members.json"
+        "https://Hemedi12.github.io/wdd231/chamber/data/members.json"
       );
       if (!response.ok) {
         throw new Error("Network response failed " + response.statusText);
