@@ -1,0 +1,86 @@
+/* General Styling */
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #e91e63;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #e91e63;
+}
+
+.logo h1 {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: #4caf50;
+}
+footer {
+  background-color: #4caf50;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #e91e63;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+}

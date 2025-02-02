@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Project Site Plan for Sole Haven, including site purpose, scenarios, color schema, typography, and wireframes."
+    />
+    <title>Sole Haven - Site Plan</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1>Sole Haven</h1>
+        </div>
+        <div class="hamburger" id="hamburger">
+          &#9776;
+          <!-- Hamburger icon -->
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#purpose">Home</a></li>
+          <li><a href="#products">Shop</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="reason">
+        <h2>Reason for Site Name</h2>
+        <p>
+          The name "Sole Haven" evokes a sense of comfort and refuge for shoe enthusiasts. 
+          It suggests a place where visitors can find the perfect pair of shoes that suits their style and needs
+        </p>
+      </section>
+      <section id="purpose">
+        <h2>Site Purpose</h2>
+        <p>
+          The purpose of the website is to provide an online platform for customers to browse, select, and purchase 
+          a wide variety of shoes, ranging from casual to formal, athletic to trendy. 
+          It aims to offer an engaging shopping experience with detailed product descriptions, reviews, and easy navigation.
+        </p>
+      </section>
+
+      <section id="scenarios">
+        <h2>Visitor Scenarios</h2>
+        <ul>
+          <li>
+            
+		<u><b>Casual Browsing</b></u>: A visitor casually explores the latest shoe trends and collections without
+		 a specific purchase in mind.
+		<u><b>Searching for a Specific Pair</b></u>: A user looks for a specific brand or style of shoes for an upcoming event.
+		<u><b>Comparing Options</b></u>: A customer compares different shoes based on features, prices, and reviews 
+		to make an informed decision.
+		<u><b>Making a Purchase</b></u>: A visitor is ready to buy and goes through the checkout process, requiring a 
+		smooth and secure transaction experience.
+		<u><b>Seeking Recommendations</b></u>: A user looks for style recommendations based on their preferences or occasions.
+          </li>
+          <li>
+            A visitor is searching for children's birthday offers and discounts for a
+            shoes arrangement gift.
+          </li>
+        </ul>
+      </section>
+
+      <section id="color-schema">
+        <h2>Color Schema</h2>
+        <p>
+          Primary Color:
+          <span class="color-box" style="background-color: #e91e63"
+            >#E91E63</span
+          >
+          (Used for buttons and headings to create a vibrant look)
+        </p>
+        <p>
+          Secondary Color:
+          <span class="color-box" style="background-color: #4caf50"
+            >#4CAF50</span
+          >
+          (Used for accents such as footer and product labels)
+        </p>
+      </section>
+
+      <section id="typography">
+        <h2>Typography</h2>
+        <p>
+          <strong>Heading Font:</strong> Playfair Display, serif (used for
+          headings to give a formal and elegant feel)
+        </p>
+        <p>
+          <strong>Body Font:</strong> Lato, sans-serif (used for body text for
+          better readability)
+        </p>
+      </section>
+
+      <section id="wireframe">
+        <h2>Wireframes</h2>
+        <p>Wireframes showcase the layout for both mobile and desktop views.</p>
+
+        <iframe
+          width="700"
+          height="300"
+          src="https://www.figma.com/design/YnoTvoEkLzpKSxUAF5GTgt/DESKTOP-VIEW?node-id=0-1&p=f"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="700"
+          height="300"
+          src="https://embed.figma.com/design/yxbt7zWZ5eT26nU1HO0Ymg/MOBILE-VIEW?node-id=0-1&embed-host=share"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2024 Sole Haven. All rights reserved.</p>
+    </footer>
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("nav-links");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
