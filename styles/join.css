@@ -1,0 +1,295 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Prevent background content from being clickable */
+body .modal-open {
+  pointer-events: none;
+}
+
+body .modal-open .modal,
+body .modal-open .modal * {
+  pointer-events: auto; /* But allow interaction inside modal */
+}
+header {
+  background-color: #2a405e;
+  color: white;
+  padding: 20px;
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: large;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+nav ul li a.current {
+  font-weight: bold;
+  font-style: italic;
+  color: hwb(0 86% 13%);
+  border-bottom: 2px solid hwb(0 86% 13%);
+}
+
+main {
+  padding: 2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+}
+
+.membership-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 2rem;
+}
+.membership-card {
+  height: 150px;
+}
+.modal-link {
+  color: #0369f7;
+  margin-top: 40px;
+  font-size: 30px;
+  box-sizing: border-box;
+}
+
+.membership-cards {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 70vh; /* Full screen height */
+  overflow: hidden;
+}
+
+.hero-content h1 {
+  width: 700px;
+  color: black;
+}
+.hero img {
+  max-height: 400px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* For contrast over the image */
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin: 0.5em 0;
+}
+
+.hero-content p {
+  font-size: 1.5em;
+}
+
+.join-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.join-btn:hover {
+  background-color: #f44336;
+  color: white;
+}
+.modal-content {
+  position: relative;
+  max-height: 80vh; /* Set maximum height relative to the viewport */
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+}
+
+.close span {
+  color: white; /* Change this color as per your design */
+}
+
+.close:hover {
+  color: #d9534f; /* Optional: Change color when hovered */
+}
+
+/* Modal dialog centering */
+#joinModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* This will center the modal */
+  max-width: 600px; /* Set a max-width for the modal (optional) */
+  width: 100%; /* Ensure it adapts to smaller screens */
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    color: white;
+  }
+  .join-btn:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #003f6b;
+    padding: 1rem 0;
+  }
+
+  nav ul.show {
+    position: relative;
+    margin-top: 70px;
+    display: inline-block;
+  }
+  .menu-toggle {
+    display: block;
+    color: #effaff;
+  }
+  #navbar.active ul {
+    display: flex;
+  }
+
+  #navbar ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #003f6b;
+    top: 135px;
+    left: 0;
+  }
+
+  #navbar.active {
+    display: flex;
+    z-index: 1;
+    background-color: #003f6b;
+  }
+  #navbar .show .active {
+    background-color: #003f6b;
+  }
+  .hero-content h1 {
+    width: 300px;
+    color: black;
+    font-size: 2em;
+  }
+  .membership-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #thankyou {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.membership-card {
+  background-color: #f9f9f9;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.membership-card h3 {
+  margin-top: 0;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+}
+
+#closeForm {
+  color: black; /* Change the close button color to black only in the joinModal */
+}
+.submit-btn {
+  background-color: #007bff;
+  color: #ccc;
+  font-size: 20px;
+}
+.submit-btn:hover {
+  background-color: #d9534f;
+}
+#thankyou {
+  width: 900px;
+  height: 400px;
+}
+#thankyou ul {
+  margin-top: 45px;
+  text-decoration: none;
+}
+#thankyou ul li {
+  margin-bottom: 15px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  cursor: pointer;
+}
