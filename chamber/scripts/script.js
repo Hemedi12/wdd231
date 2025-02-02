@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
   async function fetchMembers() {
     try {
       const response = await fetch(
-        "https://Hemedi12.github.io/wdd231/chamber/data/members.json"
+        "https://wiselinda.github.io/wdd231/chamber/data/members.json"
       );
       if (!response.ok) {
-        throw new Error("Network response failed " + response.statusText);
+        throw new Error("Network response was not ok " + response.statusText);
       }
       const members = await response.json();
       return members;
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
       card.className = view === "grid" ? "card" : "list-item";
       card.innerHTML = `
                 <div class="image-container">
-                    <img src="https://Hemedi12.github.io/wdd231/chamber/images/${member.image}" alt="${member.name} Logo">
+                    <img src="https://wiselinda.github.io/wdd231/chamber/images/${member.image}" alt="${member.name} Logo">
                 </div>
                 <div class="content-container">
                     <h2>${member.name}</h2>
