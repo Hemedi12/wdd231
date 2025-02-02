@@ -27,7 +27,7 @@ function formatDate(date) {
 
 async function loadWeather() {
   const apiKey = "5905ae91e1231e40f69bbe8513baa58c";
-  const city = "gitega";
+  const city = "Aurich";
   const weatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
 
   const response = await fetch(weatherURL);

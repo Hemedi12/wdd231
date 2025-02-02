@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Charles Hemedi" />
+    <meta name="description" content="Charles, Chamber of Commerce" />
+    <meta property="og:title" content="Chamber of Commerce join Page" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Gitega Chamber of Commerce , Burundi"
+    />
+    <meta
+      property="og:url"
+      content="https://Hemedi12.github.io/wdd231/chamber/join.html"
+    />
+    <meta
+      property="og:image"
+      content="https://Hemedi12.github.io/wdd231/chamber/images/wdd231.webp"
+    />
+    <title>Chamber of Commerce Home Page</title>
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/directory1.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/join.css">
+    <script src="scripts/join.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+</head>
+<body>
+        <!-- Header and Navigation (consistent with other pages) -->
+        <header>
+            <div class="head-info">
+                <img width="100" src="images/wdd231.webp" alt="profile picture" />
+                <div class="head-logo">
+                  <h1>Charles</h1>
+                  <p>Chamber of Commerce</p>
+                </div>
+                <div class="menu-toggle">&#9776;</div>
+              </div>
+            <nav class="navbar">
+                <ul>
+                   <li><a href="index.html" >Home</a></li>
+                   <li><a href="./directory.html">Directory</a></li>
+                   <li><a href="./join.html" class="active">Join</a></li>
+                   <li><a href="./discover.html">Discover</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="thankyou" class="modal-content">
+            <h1>Thank You for Your Application</h1>
+            <p>Here is the information you submitted:</p>
+            <ul>
+              <li>First Name: <span id="first-name"></span></li>
+              <li>Last Name: <span id="last-name"></span></li>
+              <li>Email: <span id="email"></span></li>
+              <li>Mobile Phone: <span id="mobile-phone"></span></li>
+              <li>Business Name: <span id="business-name"></span></li>
+              <li>Submission Date: <span id="timestamp"></span></li>
+            </ul>
+        </div>
+        <footer>
+            <div class="project-info">
+                <p>WDD231 Class Project</p>
+                <p>Charles Hemedi</p>
+                <p>©<span id="currentyear"></span> Charles Chamber of Commerce</p>
+                <p><span id="lastModified"></span></p>
+              </div>
+        </footer>
+
+<script>
+  // Fetch submitted data from URL parameters
+  const urlParams = new URLSearchParams(window.location.search);
+  document.getElementById('first-name').textContent = urlParams.get('firstName');
+  document.getElementById('last-name').textContent = urlParams.get('lastName');
+  document.getElementById('email').textContent = urlParams.get('email');
+  document.getElementById('mobile-phone').textContent = urlParams.get('mobilePhone');
+  document.getElementById('business-name').textContent = urlParams.get('businessName');
+  document.getElementById('timestamp').textContent = urlParams.get('timestamp');
+</script>
+
+</body>
+</html>
