@@ -11,7 +11,7 @@ body .modal-open {
 
 body .modal-open .modal,
 body .modal-open .modal * {
-  /* pointer-events: auto; But allow interaction inside modal */
+  pointer-events: auto; /*But allow interaction inside modal */
 }
 header {
   background-color: #2a405e;
