@@ -43,7 +43,7 @@ hamburger.addEventListener("click", () => {
 const year = document.querySelector("#year");
 const today = new Date();
 
-year.innerHTML = `<span class='highlight'>${today.getFullYear()}</span>&copy; Fabrice Ndabitezamaso`;
+year.innerHTML = `<span class='highlight'>${today.getFullYear()}</span>&copy; Charles Hemedi`;
 
 const option = { year: "numeric", month: "long", day: "numeric" };
 const lastUpdated = today.toLocaleDateString("en-US", option);

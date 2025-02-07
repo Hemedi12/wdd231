@@ -1,11 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <meta charset="UTF-8">
-           
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Chamber discover for Business" />
+    <meta name="author" content="Charles Hemedi" />
+    <title>Chamber of Commerce - discover</title>
+    <meta property="og:title" content="Chamber of Commerce-Directory" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://Hemedi12.github.io/wdd231/chamber/images/wdd231.webp"
+    />
+    <meta
+      property="og:url"
+      content="https://Hemedi12.github.io/wdd231/chamber/discover.html"
+    />
+        <!--typography-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+        <!-- Favicon -->
+        <link rel="icon" href="/chamber/images/favicon.ico" type="image/x-icon" />    
+    
+        <link rel="stylesheet" href="styles/components.css">
+        <link rel="stylesheet" href="styles/discover.css">
+        <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    
+    
+        
+        <script src="scripts/components.js" defer></script>
+        <script src="scripts/discover.js" defer></script>
+       
+        
     </head>
     <body>
-        <h1><b>This page will be available for the next week</b>  </h1>
-        <progress></progress>
-   </body>
+        <header>
+            <div class="head-info">
+                <img width="100" src="images/wdd231.webp" alt="profile picture" />
+                <div class="head-logo">
+                  <h1>Charles</h1>
+                  <p>Chamber of Commerce</p>
+                </div>
+                <div class="menu-toggle">&#9776;</div>
+              </div>
+            <nav class="navbar">
+                
+                <ul class="menuLinks">
+                    <li><a href="index.html" title="home">Home</a></li>
+                    <li><a href="directory.html" title="business">Directory</a></li>
+                    <li><a href="join.html" title="join">Join</a></li>
+                    <li><a href="discover.html" title="discover">Discover</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main id="sidebarAndMain">
+            <section id="sidebar">
+                <h6>Companies we work with</h6>
+                <h5>Welcome Back!</h5>
+                <p id="visit-message"></p>
+                
+                <div id="companiesOnBoard">
+
+                </div>
+                <div class="calendar-section">
+                    <div class="calendar-header">
+                        <button id="prev-month">&#9664;</button>
+                        <span id="month-year"></span>
+                        <button id="next-month">&#9654;</button>
+                    </div>
+                    <div class="calendar">
+                        <!-- Day names -->
+                        <div class="day-names">
+                            <div>Sun</div><div>Mon</div><div>Tue</div>
+                            <div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+                        </div>
+                        <!-- Days will be dynamically populated -->
+                        <div class="days" id="days"></div>
+                    </div>
+                </div>
+            </section>
+
+            <div id="main" >
+               <img class="busPic" loading="lazy" src="./images/businessDeal.jpg" alt="">
+               <img class="busPic" loading="lazy" src="./images/businessPhone.jpg" alt="">
+               <img class="busPic" loading="lazy" src="./images/cities.jpg" alt="">
+               <img class="busPic" loading="lazy" src="./images/computer.jpg" alt="">
+               <img class="busPic" loading="lazy" src="./images/desk.jpg" alt="">
+               <img class="busPic" loading="lazy" src="./images/engine.jpg" alt="">
+                
+            </div>
+        </main>
+    
+    <footer>
+        <div>
+            <img width="50" src="images/wdd231.webp" alt="profile picture" />
+            <p>Burundi, Charles</p>
+            <p>BjaM@gmail.com</p>
+            <p>00257-79978127</p>
+        </div>
+        <div>
+            <p>WDD231 Class Project</p>
+            <p id="year"></p>
+            <p id="last-update"></p>
+            <div class="social">
+                <a href="#"><img class="icon" src="images/facebook-svgrepo-com.svg" alt="facebook"></a>
+                <a href="#"><img class="icon" src="images/instagram-svgrepo-com.svg" alt="instagram"></a>
+                <a href="#"><img class="icon" src="images/linkedin-svgrepo-com.svg" alt="linkedin"></a>   
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
