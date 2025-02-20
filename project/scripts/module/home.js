@@ -1,6 +1,6 @@
 const myKey = "90158c8799bb28ca5c3054efdcbe85fd";
-const myLat = "8.999893532275784";
-const myLon = "-79.52049637702123";
+const myLat = " -3.36°S";
+const myLon = "29.35°E ";
 
 const time = new Date();
 const day = time.getDay();
